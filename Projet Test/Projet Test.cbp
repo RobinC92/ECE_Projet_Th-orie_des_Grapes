@@ -34,9 +34,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+<<<<<<< HEAD
 		<Unit filename="include/Robin.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Robin.cpp" />
+=======
+		<Unit filename="include/Sarah.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Sarah.cpp" />
+>>>>>>> ft_Sarah
 		<Extensions>
 			<code_completion />
 			<envvars />
