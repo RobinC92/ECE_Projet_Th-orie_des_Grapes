@@ -9,6 +9,7 @@ int main()
     grman::init();
     ///Robin
     /// TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+    ///Sarahhh
 
     /// Le nom du répertoire où se trouvent les images à charger
     grman::set_pictures_path("pics");
