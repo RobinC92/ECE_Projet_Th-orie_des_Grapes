@@ -7,6 +7,7 @@ int main()
 {
     /// A appeler en 1er avant d'instancier des objets graphiques etc...
     grman::init();
+    ///Robin
     /// TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 
     /// Le nom du répertoire où se trouvent les images à charger
