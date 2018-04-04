@@ -35,6 +35,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Robin.h" />
+<<<<<<< HEAD
 		<Unit filename="include/Sarah.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Robin.cpp" />
@@ -42,6 +43,12 @@
 =======
 		<Unit filename="src/Sarah.cpp" />
 >>>>>>> ft_Sarah
+=======
+		<Unit filename="include/Test 1.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Robin.cpp" />
+		<Unit filename="src/Test 1.cpp" />
+>>>>>>> 35a98585ac76b8590309029fa7e0340651562316
 		<Extensions>
 			<code_completion />
 			<envvars />
