@@ -1,11 +1,11 @@
 #include "Test 1.h"
 
-Test 1::Test 1()
+Test ::Test ()
 {
     //ctor
 }
 
-Test 1::~Test 1()
+Test ::~Test ()
 {
     //dtor
 }
