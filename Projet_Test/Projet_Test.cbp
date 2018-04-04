@@ -35,8 +35,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Robin.h" />
+		<Unit filename="include/Test 1.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Robin.cpp" />
+		<Unit filename="src/Test 1.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
