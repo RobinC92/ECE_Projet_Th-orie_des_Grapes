@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1522914943 source:c:\users\mathieu\documents\ece\projet2_ing2_info\projet_s2\src\besoin.cpp
+	"Besoin.h"
+
+1522915196 c:\users\mathieu\documents\ece\projet2_ing2_info\projet_s2\include\besoin.h
+	<vector>
+	<iostream>
+
+1522914785 source:c:\users\mathieu\documents\ece\projet2_ing2_info\projet_s2\src\sommet.cpp
+	"Sommet.h"
+
+1522965953 c:\users\mathieu\documents\ece\projet2_ing2_info\projet_s2\include\sommet.h
+	"Besoin.h"
+	<vector>
+
+1522960515 source:c:\users\mathieu\documents\ece\projet2_ing2_info\projet_s2\main.cpp
+	<iostream>
+	"Graphe.h"
+	"Fichier.h"
+
+1522999550 source:c:\users\mathieu\documents\ece\projet2_ing2_info\projet_s2\src\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1522915167 c:\users\mathieu\documents\ece\projet2_ing2_info\projet_s2\include\graphe.h
+	"Sommet.h"
+
+1522914943 source:c:\users\mathieu\documents\ece\projet2_ing2_info\projet_s2\fichier.cpp
+	"Fichier.h"
+
+1522914943 c:\users\mathieu\documents\ece\projet2_ing2_info\projet_s2\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1523005331 source:c:\users\sarah\desktop\cours\ing2\s2\theorie des graphes\projet\projet_s2 4\projet_s2\fichier.cpp
+	"Fichier.h"
+
+1523005331 c:\users\sarah\desktop\cours\ing2\s2\theorie des graphes\projet\projet_s2 4\projet_s2\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1523005400 c:\users\sarah\desktop\cours\ing2\s2\theorie des graphes\projet\projet_s2 4\projet_s2\include\graphe.h
+	"Sommet.h"
+
+1523005331 c:\users\sarah\desktop\cours\ing2\s2\theorie des graphes\projet\projet_s2 4\projet_s2\include\sommet.h
+	"Besoin.h"
+	<vector>
+
+1523004022 c:\users\sarah\desktop\cours\ing2\s2\theorie des graphes\projet\projet_s2 4\projet_s2\include\besoin.h
+	<vector>
+	<iostream>
+
+1523005468 source:c:\users\sarah\desktop\cours\ing2\s2\theorie des graphes\projet\projet_s2 4\projet_s2\main.cpp
+	<iostream>
+	"Graphe.h"
+	"Fichier.h"
+
+1523004022 source:c:\users\sarah\desktop\cours\ing2\s2\theorie des graphes\projet\projet_s2 4\projet_s2\src\besoin.cpp
+	"Besoin.h"
+
+1523004022 source:c:\users\sarah\desktop\cours\ing2\s2\theorie des graphes\projet\projet_s2 4\projet_s2\src\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1523005331 source:c:\users\sarah\desktop\cours\ing2\s2\theorie des graphes\projet\projet_s2 4\projet_s2\src\sommet.cpp
+	"Sommet.h"
+
