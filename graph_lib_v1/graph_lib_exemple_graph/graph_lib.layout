@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
+<<<<<<< HEAD
 	<ActiveTarget name="Debug" />
 	<File name="grman\coords.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
@@ -22,18 +23,38 @@
 			<Cursor1 position="19" topLine="0" />
 		</Cursor>
 	</File>
+=======
+	<ActiveTarget name="Release" />
+	<File name="grman\widget.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8871" topLine="252" />
+		</Cursor>
+	</File>
+	<File name="graph.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10334" topLine="290" />
+		</Cursor>
+	</File>
+>>>>>>> 40e63d60bde2a8079a6343128a1a886f40ab8969
 	<File name="grman\grman.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
+<<<<<<< HEAD
 	<File name="grman\widget.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="10967" topLine="315" />
+=======
+	<File name="Sommet.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="405" topLine="6" />
+>>>>>>> 40e63d60bde2a8079a6343128a1a886f40ab8969
 		</Cursor>
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
+<<<<<<< HEAD
 			<Cursor1 position="1155" topLine="12" />
 		</Cursor>
 	</File>
@@ -45,11 +66,24 @@
 	<File name="Besoin.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="252" topLine="0" />
+=======
+			<Cursor1 position="5964" topLine="273" />
 		</Cursor>
 	</File>
-	<File name="Fichier.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Graphe.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="339" topLine="0" />
+			<Cursor1 position="57" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="Graphe.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7725" topLine="0" />
+>>>>>>> 40e63d60bde2a8079a6343128a1a886f40ab8969
+		</Cursor>
+	</File>
+	<File name="Sommet.cpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Fichier.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -57,6 +91,7 @@
 			<Cursor1 position="3048" topLine="128" />
 		</Cursor>
 	</File>
+<<<<<<< HEAD
 	<File name="Sommet.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="23" topLine="0" />
@@ -70,13 +105,34 @@
 	<File name="grman\grman_couleurs.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1420" topLine="45" />
-		</Cursor>
-	</File>
-	<File name="Graphe.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+=======
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="7725" topLine="0" />
+			<Cursor1 position="872" topLine="24" />
 		</Cursor>
 	</File>
+	<File name="grman\widget.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5979" topLine="201" />
+		</Cursor>
+	</File>
+	<File name="grman\grman_couleurs.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1420" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="Besoin.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="252" topLine="0" />
+>>>>>>> 40e63d60bde2a8079a6343128a1a886f40ab8969
+		</Cursor>
+	</File>
+	<File name="Fichier.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3048" topLine="128" />
+		</Cursor>
+	</File>
+<<<<<<< HEAD
 	<File name="grman\widget.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="4953" topLine="12" />
@@ -85,6 +141,21 @@
 	<File name="Graphe.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="57" topLine="7" />
+=======
+	<File name="Fichier.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="339" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="grman\coords.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="grman\grman.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="789" topLine="24" />
+>>>>>>> 40e63d60bde2a8079a6343128a1a886f40ab8969
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
