@@ -31,6 +31,7 @@ int main()
 
         /// Mise à jour générale (clavier/souris/buffer etc...)
         grman::mettre_a_jour();
+
         /*if (i==0)
         {
             g.test_remove_edge(2);

@@ -37,6 +37,12 @@ VertexInterface::VertexInterface(int idx, int x, int y, std::string pic_name, in
     m_box_label_idx.set_dim(20,12);
     m_box_label_idx.set_bg_color(BLANC);
 
+    m_top_box.add_child(m_supp_box);
+    m_supp_box.set_dim(10,10);
+    m_supp_box.set_gravity_xy(grman::GravityX::Right, grman::GravityY::Up);
+    m_supp_box.set_bg_color(ROUGECLAIR);
+
+
     m_box_label_idx.add_child( m_label_idx );
     m_label_idx.set_message( std::to_string(idx) );
 }
@@ -150,9 +156,12 @@ GraphInterface::GraphInterface(int x, int y, int w, int h)
     m_main_box.set_bg_color(BLANCJAUNE);
 
     m_top_box.add_child(m_supp_box);
-    m_supp_box.set_dim(100,100);
-    m_supp_box.set_gravity_xy(grman::GravityX::Left, grman::GravityY::Down);
-    m_supp_box.set_bg_color(JAUNESOMBRE);
+    m_supp_box.set_dim(10,10);
+    m_supp_box.set_gravity_xy(grman::GravityX::Right, grman::GravityY::Up);
+    m_supp_box.set_bg_color(ROUGECLAIR);
+
+//    if ((m_supp_box.is_mouse_over()==1)/*&& grman.mouse_click==1*/)
+//        std :: cout << "Ca marche" << std :: endl;
 }
 
 
@@ -229,10 +238,28 @@ void Graph::update()
     m_interface->m_top_box.update();
 
     for (auto &elt : m_vertices)
+    {
         elt.second.post_update();
+        if(elt.second.m_interface->m_supp_box.get_value())
+        {
+            std::cout<<"good"<<std::endl;
+            std::cout<<elt.first<<std::endl;
+            test_remove_vertex(elt.first);
+            elt.second.m_interface->m_supp_box.set_value(false);
+
+        }
+    }
+
 
     for (auto &elt : m_edges)
+
         elt.second.post_update();
+
+    if(m_interface->m_supp_box.get_value())
+    {
+        std::cout<<"good"<<std::endl;
+        m_interface->m_supp_box.set_value(false);
+    }
 
 }
 
