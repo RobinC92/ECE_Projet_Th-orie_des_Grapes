@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1523005507 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+
+1523004545 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\graph.h
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+	"fichier.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522746018 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522746018 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522746018 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522746018 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522746017 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522851474 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522841590 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522949530 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522918544 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\besoin.cpp
+	"Besoin.h"
+
+1522918798 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\besoin.h
+	<vector>
+	<iostream>
+
+1522947663 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\fichier.cpp
+	"Fichier.h"
+
+1522947700 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1522918768 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\graphe.h
+	"Sommet.h"
+
+1522949385 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\sommet.h
+	"Besoin.h"
+	<vector>
+
+1522878752 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1522918386 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\sommet.cpp
+	"Sommet.h"
+
