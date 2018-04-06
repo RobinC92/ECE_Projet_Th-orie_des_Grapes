@@ -17,20 +17,51 @@ int main()
 
     charger(first);
 
-    first.Actualiser_Graphe(first);
+//    for(int i=0; i<2; i++)
+//    {
+//        first.Actualiser_Graphe(first);
+//        cout << endl;
+//        cout << endl;
+//        cout << endl;
+//        cout << endl;
+//        for(int i=0; i<first.m_sommet.size(); i++)
+//        {
+//            cout << first.m_sommet[i].m_quantite << " ";
+//        }
+//        cout << endl;
+//        cout << endl;
+//        cout << endl;
+//        cout << endl;
+//
+//    }
+int fin(0);
+    while (fin<first.m_sommet.size())
+    {
+
+        fin = first.Actualiser_Graphe(first);
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << "gros affichage" << endl;
+        for(int i=0; i<first.m_sommet.size(); i++)
+        {
+            cout << first.m_sommet[i].m_quantite << " ";
+        }
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+    }
 
     sauver(first);
 
-    cout << endl;
-    for(int i=0; i<first.m_sommet.size(); i++)
-    {
-     cout << first.m_sommet[i].m_quantite << " ";
-    }
 
-//int a(2);
-//float b(3.5);
-//float c;
-//c= a/b;
-//cout << c;
+//    cout << endl;
+//    for(int i=0; i<first.m_sommet.size(); i++)
+//    {
+//        cout << first.m_sommet[i].m_quantite << " ";
+//    }
+
     return 0;
 }

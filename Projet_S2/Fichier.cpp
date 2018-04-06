@@ -100,7 +100,7 @@ void charger(Graphe &G)
                 b.m_numSommet = valSom;
 
                 fichier >> valSom;
-                b.m_quantiteBesoin = valSom;
+                b.m_quantiteBesoin = valSom/10.0;
 
                 fichier >> valSom;
                 b.m_vitale = valSom;

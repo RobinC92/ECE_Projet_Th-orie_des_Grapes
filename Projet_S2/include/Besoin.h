@@ -19,7 +19,7 @@ class Besoin
 
     //private:
         int m_numSommet;
-        int m_quantiteBesoin;
+        float m_quantiteBesoin;
         bool m_vitale;
 };
 
