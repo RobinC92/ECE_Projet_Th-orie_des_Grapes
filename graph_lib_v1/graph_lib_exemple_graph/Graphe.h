@@ -7,12 +7,11 @@ class Graphe
 public:
 
     Graphe();
-    void Actualiser_Graphe(Graphe &first);
-    void Actualiser_S(bool, int );
-    void Remplir_sommet(std::vector<Sommet> s1);
-    void Reproduction(Sommet &s, int);
+    int Actualiser_Graphe(Graphe &first);
+    void Reproduction(Sommet&m_sommet);
+    void Calcul_insatisfait(std::vector<float> &a, float &b);
 
-       std::vector<std::vector <int>> get_matAdj();
+    std::vector<std::vector <int>> get_matAdj();
 
     virtual ~Graphe();
 
