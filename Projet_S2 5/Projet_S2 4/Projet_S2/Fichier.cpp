@@ -91,7 +91,7 @@ void charger(Graphe &G, std::string doc)
                 b.m_numSommet = valSom;
 
                 fichier >> valSom;
-                b.m_quantiteBesoin = valSom;
+                b.m_quantiteBesoin = valSom/10.0;
 
                 fichier >> valSom;
                 b.m_vitale = valSom;
@@ -178,7 +178,7 @@ void sauver(Graphe &G)
             {
                 fichier << G.m_sommet[i].m_besoin[j].m_numSommet << " ";
 
-                fichier << G.m_sommet[i].m_besoin[j].m_quantiteBesoin << " ";
+                fichier << G.m_sommet[i].m_besoin[j].m_quantiteBesoin*10 << " ";
 
                 fichier << G.m_sommet[i].m_besoin[j].m_vitale << " ";
             }

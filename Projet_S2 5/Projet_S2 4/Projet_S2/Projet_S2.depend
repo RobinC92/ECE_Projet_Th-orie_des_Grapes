@@ -73,3 +73,40 @@
 1523005331 source:c:\users\sarah\desktop\cours\ing2\s2\theorie des graphes\projet\projet_s2 4\projet_s2\src\sommet.cpp
 	"Sommet.h"
 
+1523005486 source:c:\users\sarah\ece_projet_th-orie_des_grapes\projet_s2 5\projet_s2 4\projet_s2\main.cpp
+	<iostream>
+	"Graphe.h"
+	"Fichier.h"
+
+1523005402 c:\users\sarah\ece_projet_th-orie_des_grapes\projet_s2 5\projet_s2 4\projet_s2\include\graphe.h
+	"Sommet.h"
+
+1523005332 c:\users\sarah\ece_projet_th-orie_des_grapes\projet_s2 5\projet_s2 4\projet_s2\include\sommet.h
+	"Besoin.h"
+	<vector>
+
+1523111464 c:\users\sarah\ece_projet_th-orie_des_grapes\projet_s2 5\projet_s2 4\projet_s2\include\besoin.h
+	<vector>
+	<iostream>
+
+1523005332 c:\users\sarah\ece_projet_th-orie_des_grapes\projet_s2 5\projet_s2 4\projet_s2\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1523004024 source:c:\users\sarah\ece_projet_th-orie_des_grapes\projet_s2 5\projet_s2 4\projet_s2\src\besoin.cpp
+	"Besoin.h"
+
+1523004024 source:c:\users\sarah\ece_projet_th-orie_des_grapes\projet_s2 5\projet_s2 4\projet_s2\src\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1523005332 source:c:\users\sarah\ece_projet_th-orie_des_grapes\projet_s2 5\projet_s2 4\projet_s2\src\sommet.cpp
+	"Sommet.h"
+
+1523111464 source:c:\users\sarah\ece_projet_th-orie_des_grapes\projet_s2 5\projet_s2 4\projet_s2\fichier.cpp
+	"Fichier.h"
+

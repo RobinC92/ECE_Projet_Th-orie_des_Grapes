@@ -90,11 +90,12 @@
 1522918386 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\sommet.cpp
 	"Sommet.h"
 
-<<<<<<< HEAD
-1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+1523008463 D
+
+1523014467 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
 	"graph.h"
 
-1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graph.h
+1523014467 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graph.h
 	"Graphe.h"
 	"Sommet.h"
 	"Besoin.h"
@@ -105,7 +106,7 @@
 	<memory>
 	"grman/grman.h"
 
-1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graphe.h
+1523109277 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graphe.h
 	"Sommet.h"
 
 1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\sommet.h
@@ -125,7 +126,7 @@
 	"Besoin.h"
 
 1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
-=======
+
 1522918544 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\besoin.cpp
 	"Besoin.h"
 
@@ -166,50 +167,19 @@
 	"grman/grman.h"
 
 1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
->>>>>>> 40e63d60bde2a8079a6343128a1a886f40ab8969
+
+1522918386 63d60bde2a8079a6343128a1a886f40ab8969
 	<allegro.h>
 	<string>
 	"grman_couleurs.h"
 	"coords.h"
 	"widget.h"
-
-<<<<<<< HEAD
-1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
-
-1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
-	<cmath>
-
-1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
-=======
-1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
-
-1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
-	<cmath>
-
-1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
->>>>>>> 40e63d60bde2a8079a6343128a1a886f40ab8969
 	"grman.h"
 	<iostream>
 	<string>
 	<vector>
 	<algorithm>
 	<allegro.h>
-
-<<<<<<< HEAD
-1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
-	"coords.h"
-
-1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
-=======
-1522878752 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graphe.cpp
-	"Graphe.h"
-	<vector>
-
-1522746017 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
-	"coords.h"
-
-1522851474 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
->>>>>>> 40e63d60bde2a8079a6343128a1a886f40ab8969
 	<cmath>
 	<unordered_map>
 	<unordered_set>
@@ -222,36 +192,63 @@
 	<png.h>
 	<loadpng.h>
 	<jpgalleg.h>
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+	"Sommet.h"
 
-<<<<<<< HEAD
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+
+1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+
+1522878752 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1522746017 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522851474 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+
 1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
 	"widget.h"
 
-1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\main.cpp
-=======
-1523008494 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
-	"widget.h"
-
-1523008463 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\main.cpp
->>>>>>> 40e63d60bde2a8079a6343128a1a886f40ab8969
+1523014467 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\main.cpp
 	"grman/grman.h"
 	<iostream>
 	"graph.h"
 
-<<<<<<< HEAD
+1523008494 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1523008463 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+
 1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\besoin.cpp
 	"Besoin.h"
 
-1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\fichier.cpp
+1523109481 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\fichier.cpp
 	"Fichier.h"
 
-1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graphe.cpp
+1523109261 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graphe.cpp
 	"Graphe.h"
 	<vector>
 
 1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\sommet.cpp
-=======
+
 1522918386 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\sommet.cpp
->>>>>>> 40e63d60bde2a8079a6343128a1a886f40ab8969
-	"Sommet.h"
 

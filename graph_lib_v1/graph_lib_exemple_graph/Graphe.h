@@ -7,7 +7,7 @@ class Graphe
 public:
 
     Graphe();
-    int Actualiser_Graphe(Graphe &first);
+    void Actualiser_Graphe(Graphe &first);
     void Reproduction(Sommet&m_sommet);
     void Calcul_insatisfait(std::vector<float> &a, float &b);
 

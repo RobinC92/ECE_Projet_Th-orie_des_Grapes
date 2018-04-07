@@ -146,7 +146,7 @@ void chargerImages(Graphe &G)
             {
                 getline(fichier, nom);
                 G.m_sommet[i].m_images = nom;
-                std::cout << G.m_sommet[i].m_images << std::endl;
+                //std::cout << G.m_sommet[i].m_images << std::endl;
             }
         }
         fichier.close();
@@ -203,7 +203,7 @@ void sauver(Graphe &G)
             fichier << std::endl;
 
         }
-                    fichier << std::endl;
+        fichier << std::endl;
 
         fichier.close();
     }

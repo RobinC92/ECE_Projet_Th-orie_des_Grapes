@@ -8,10 +8,10 @@ Graphe::Graphe()
     //ctor
 }
 
-void Graphe::Reproduction(Sommet & sommet1, int couple)
-{
-
-}
+//void Graphe::Reproduction(Sommet & sommet1, int couple)
+//{
+//
+//}
 
 void Graphe::Actualiser_Graphe(Graphe & first)
 {
@@ -167,18 +167,18 @@ void Graphe::Actualiser_Graphe(Graphe & first)
                 }
             }
         }
-void Graphe::Actualiser_S(bool a, int besoin_S)
-{
-
-}
-
-void Graphe::Remplir_sommet(vector<Sommet> s1)
-{
-    for(int i=0; i < s1.size(); i++)
-    {
-        /// Remplir les sommets pour tester
-    }
-}
+//void Graphe::Actualiser_S(bool a, int besoin_S)
+//{
+//
+//}
+//
+//void Graphe::Remplir_sommet(vector<Sommet> s1)
+//{
+//    for(int i=0; i < s1.size(); i++)
+//    {
+//        /// Remplir les sommets pour tester
+//    }
+//}
 
 Graphe::~Graphe()
 {
