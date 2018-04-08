@@ -1,0 +1,797 @@
+# depslib dependency file v1.0
+1523005507 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+
+1523004545 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\graph.h
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+	"fichier.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522746018 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522746018 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522746018 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522746018 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522746017 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522851474 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522841590 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522949530 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522918544 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\besoin.cpp
+	"Besoin.h"
+
+1522918798 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\besoin.h
+	<vector>
+	<iostream>
+
+1522947663 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\fichier.cpp
+	"Fichier.h"
+
+1522947700 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1522918768 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\graphe.h
+	"Sommet.h"
+
+1522949385 c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\sommet.h
+	"Besoin.h"
+	<vector>
+
+1522878752 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1522918386 source:c:\users\robin\desktop\graph_lib_v1\graph_lib_exemple_graph\sommet.cpp
+	"Sommet.h"
+
+1523008463 D
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graph.h
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+	"fichier.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graphe.h
+	"Sommet.h"
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\sommet.h
+	"Besoin.h"
+	<vector>
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\besoin.h
+	<vector>
+	<iostream>
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
+
+1522918544 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\besoin.cpp
+	"Besoin.h"
+
+1522918798 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\besoin.h
+	<vector>
+	<iostream>
+
+1522947663 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\fichier.cpp
+	"Fichier.h"
+
+1522947700 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1522918768 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graphe.h
+	"Sommet.h"
+
+1522949385 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\sommet.h
+	"Besoin.h"
+	<vector>
+
+1523013788 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+
+1523012104 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graph.h
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+	"fichier.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
+
+1522918386 63d60bde2a8079a6343128a1a886f40ab8969
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+	"Sommet.h"
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1523006038 c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+
+1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522746018 c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+
+1522878752 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1522746017 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522851474 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+
+1523008494 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1523008463 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\besoin.cpp
+	"Besoin.h"
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\fichier.cpp
+	"Fichier.h"
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1523006038 source:c:\users\sarah\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\sommet.cpp
+
+1522918386 source:c:\users\robin\ece_projet_th-orie_des_grapes\graph_lib_v1\graph_lib_exemple_graph\sommet.cpp
+
+1523006040 source:e:\graph_lib_v1\graph_lib_exemple_graph\besoin.cpp
+	"Besoin.h"
+
+1523006040 e:\graph_lib_v1\graph_lib_exemple_graph\besoin.h
+	<vector>
+	<iostream>
+
+1523006040 source:e:\graph_lib_v1\graph_lib_exemple_graph\fichier.cpp
+	"Fichier.h"
+
+1523006040 e:\graph_lib_v1\graph_lib_exemple_graph\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1523006040 e:\graph_lib_v1\graph_lib_exemple_graph\graphe.h
+	"Sommet.h"
+
+1523006040 e:\graph_lib_v1\graph_lib_exemple_graph\sommet.h
+	"Besoin.h"
+	<vector>
+
+1523014468 source:e:\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+
+1523014468 e:\graph_lib_v1\graph_lib_exemple_graph\graph.h
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+	"fichier.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1523006040 e:\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1523006040 e:\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1523006040 e:\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1523006040 e:\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1523006040 source:e:\graph_lib_v1\graph_lib_exemple_graph\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1523006040 source:e:\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1523006040 source:e:\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1523006040 source:e:\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1523014468 source:e:\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1523006040 source:e:\graph_lib_v1\graph_lib_exemple_graph\sommet.cpp
+	"Sommet.h"
+
+1523006040 source:c:\users\robin\desktop\graph_lib_exemple_graph\besoin.cpp
+	"Besoin.h"
+
+1523006040 c:\users\robin\desktop\graph_lib_exemple_graph\besoin.h
+	<vector>
+	<iostream>
+
+1523006040 source:c:\users\robin\desktop\graph_lib_exemple_graph\fichier.cpp
+	"Fichier.h"
+
+1523006040 c:\users\robin\desktop\graph_lib_exemple_graph\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1523006040 c:\users\robin\desktop\graph_lib_exemple_graph\graphe.h
+	"Sommet.h"
+
+1523006040 c:\users\robin\desktop\graph_lib_exemple_graph\sommet.h
+	"Besoin.h"
+	<vector>
+
+1523014468 source:c:\users\robin\desktop\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+
+1523028074 c:\users\robin\desktop\graph_lib_exemple_graph\graph.h
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+	"fichier.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1523006040 c:\users\robin\desktop\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1523006040 c:\users\robin\desktop\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1523006040 c:\users\robin\desktop\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1523006040 c:\users\robin\desktop\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1523006040 source:c:\users\robin\desktop\graph_lib_exemple_graph\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1523006040 source:c:\users\robin\desktop\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1523006040 source:c:\users\robin\desktop\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1523006040 source:c:\users\robin\desktop\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1523014468 source:c:\users\robin\desktop\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1523006040 source:c:\users\robin\desktop\graph_lib_exemple_graph\sommet.cpp
+	"Sommet.h"
+
+1523006040 source:c:\users\robin\desktop\version qui marche\besoin.cpp
+	"Besoin.h"
+
+1523111132 c:\users\robin\desktop\version qui marche\besoin.h
+	<vector>
+	<iostream>
+
+1523111132 source:c:\users\robin\desktop\version qui marche\fichier.cpp
+	"Fichier.h"
+
+1523006040 c:\users\robin\desktop\version qui marche\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1523006040 c:\users\robin\desktop\version qui marche\graphe.h
+	"Sommet.h"
+
+1523006040 c:\users\robin\desktop\version qui marche\sommet.h
+	"Besoin.h"
+	<vector>
+
+1523112910 source:c:\users\robin\desktop\version qui marche\graph.cpp
+	"graph.h"
+
+1523112718 c:\users\robin\desktop\version qui marche\graph.h
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+	"fichier.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1523006040 c:\users\robin\desktop\version qui marche\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1523006040 c:\users\robin\desktop\version qui marche\grman\grman_couleurs.h
+
+1523006040 c:\users\robin\desktop\version qui marche\grman\coords.h
+	<cmath>
+
+1523103072 c:\users\robin\desktop\version qui marche\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1523006040 source:c:\users\robin\desktop\version qui marche\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1523006040 source:c:\users\robin\desktop\version qui marche\grman\coords.cpp
+	"coords.h"
+
+1523006040 source:c:\users\robin\desktop\version qui marche\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1523006040 source:c:\users\robin\desktop\version qui marche\grman\widget.cpp
+	"widget.h"
+
+1523112718 source:c:\users\robin\desktop\version qui marche\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1523006040 source:c:\users\robin\desktop\version qui marche\sommet.cpp
+	"Sommet.h"
+
+1523006040 source:c:\users\robin\desktop\version qui marche 2\besoin.cpp
+	"Besoin.h"
+
+1523006040 c:\users\robin\desktop\version qui marche 2\besoin.h
+	<vector>
+	<iostream>
+
+1523032841 source:c:\users\robin\desktop\version qui marche 2\fichier.cpp
+	"Fichier.h"
+
+1523006040 c:\users\robin\desktop\version qui marche 2\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1523006040 c:\users\robin\desktop\version qui marche 2\graphe.h
+	"Sommet.h"
+
+1523006040 c:\users\robin\desktop\version qui marche 2\sommet.h
+	"Besoin.h"
+	<vector>
+
+1523099415 source:c:\users\robin\desktop\version qui marche 2\graph.cpp
+	"graph.h"
+
+1523042750 c:\users\robin\desktop\version qui marche 2\graph.h
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+	"fichier.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1523006040 c:\users\robin\desktop\version qui marche 2\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1523006040 c:\users\robin\desktop\version qui marche 2\grman\grman_couleurs.h
+
+1523006040 c:\users\robin\desktop\version qui marche 2\grman\coords.h
+	<cmath>
+
+1523006040 c:\users\robin\desktop\version qui marche 2\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1523006040 source:c:\users\robin\desktop\version qui marche 2\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1523006040 source:c:\users\robin\desktop\version qui marche 2\grman\coords.cpp
+	"coords.h"
+
+1523006040 source:c:\users\robin\desktop\version qui marche 2\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1523006040 source:c:\users\robin\desktop\version qui marche 2\grman\widget.cpp
+	"widget.h"
+
+1523034219 source:c:\users\robin\desktop\version qui marche 2\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1523006040 source:c:\users\robin\desktop\version qui marche 2\sommet.cpp
+	"Sommet.h"
+
+1523006040 source:c:\users\robin\desktop\version qui test\besoin.cpp
+	"Besoin.h"
+
+1523111132 c:\users\robin\desktop\version qui test\besoin.h
+	<vector>
+	<iostream>
+
+1523111132 source:c:\users\robin\desktop\version qui test\fichier.cpp
+	"Fichier.h"
+
+1523006040 c:\users\robin\desktop\version qui test\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1523112924 c:\users\robin\desktop\version qui test\graphe.h
+	"Sommet.h"
+
+1523006040 c:\users\robin\desktop\version qui test\sommet.h
+	"Besoin.h"
+	<vector>
+
+1523141571 source:c:\users\robin\desktop\version qui test\graph.cpp
+	"graph.h"
+
+1523141021 c:\users\robin\desktop\version qui test\graph.h
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+	"fichier.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1523006040 c:\users\robin\desktop\version qui test\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1523006040 c:\users\robin\desktop\version qui test\grman\grman_couleurs.h
+
+1523006040 c:\users\robin\desktop\version qui test\grman\coords.h
+	<cmath>
+
+1523103072 c:\users\robin\desktop\version qui test\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1523006040 source:c:\users\robin\desktop\version qui test\grman\coords.cpp
+	"coords.h"
+
+1523006040 source:c:\users\robin\desktop\version qui test\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1523006040 source:c:\users\robin\desktop\version qui test\grman\widget.cpp
+	"widget.h"
+
+1523138427 source:c:\users\robin\desktop\version qui test\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1523006040 source:c:\users\robin\desktop\version qui test\sommet.cpp
+	"Sommet.h"
+
+1523112924 source:c:\users\robin\desktop\version qui test\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1523006040 source:c:\users\robin\desktop\dernière version\besoin.cpp
+	"Besoin.h"
+
+1523181704 c:\users\robin\desktop\dernière version\besoin.h
+	<vector>
+	<iostream>
+
+1523181841 source:c:\users\robin\desktop\dernière version\fichier.cpp
+	"Fichier.h"
+
+1523006040 c:\users\robin\desktop\dernière version\fichier.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+
+1523112924 c:\users\robin\desktop\dernière version\graphe.h
+	"Sommet.h"
+
+1523183130 c:\users\robin\desktop\dernière version\sommet.h
+	"Besoin.h"
+	<vector>
+
+1523184440 source:c:\users\robin\desktop\dernière version\graph.cpp
+	"graph.h"
+
+1523183578 c:\users\robin\desktop\dernière version\graph.h
+	"Graphe.h"
+	"Sommet.h"
+	"Besoin.h"
+	"fichier.h"
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1523006040 c:\users\robin\desktop\dernière version\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1523006040 c:\users\robin\desktop\dernière version\grman\grman_couleurs.h
+
+1523006040 c:\users\robin\desktop\dernière version\grman\coords.h
+	<cmath>
+
+1523103072 c:\users\robin\desktop\dernière version\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1523112924 source:c:\users\robin\desktop\dernière version\graphe.cpp
+	"Graphe.h"
+	<vector>
+
+1523006040 source:c:\users\robin\desktop\dernière version\grman\coords.cpp
+	"coords.h"
+
+1523006040 source:c:\users\robin\desktop\dernière version\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1523006040 source:c:\users\robin\desktop\dernière version\grman\widget.cpp
+	"widget.h"
+
+1523138427 source:c:\users\robin\desktop\dernière version\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1523006040 source:c:\users\robin\desktop\dernière version\sommet.cpp
+	"Sommet.h"
+
