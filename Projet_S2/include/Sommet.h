@@ -15,6 +15,7 @@ class Sommet
         void Remplissage();
         void Set_marquage(bool);
 
+
         virtual ~Sommet();
 
     //protected:
@@ -25,15 +26,16 @@ class Sommet
         int m_quantite;
         bool m_marque;
         int m_coeff;
+        int pos_x;
+        int pos_y;
         int m_nbBesoin;
+        std::vector<Besoin> m_besoin;
+        std::vector<int> m_adj;
+
+        std::string m_images;
         int m_nbBesoinVital;
         int m_nbBesoinNonVital;
 
-        /// Rajouter le nombre de sommet non vitaux et vitaux
-
-        int pos_x;
-        int pos_y;
-        std::vector<Besoin> m_besoin;
 
 };
 

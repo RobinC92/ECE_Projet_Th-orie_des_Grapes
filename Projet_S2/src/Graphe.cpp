@@ -15,6 +15,7 @@ int Graphe::Actualiser_Graphe(Graphe & first)
 
     for(int i=0; i<m_sommet.size(); i++) /// On parcourt tout les besoins, et on enlève les quantités correspondantes
     {
+        cout << "brabra" << endl;
         //system("cls");
         int reproduction(0);
         vector <float> nb_besoin_vitaux_insatisfaits;
@@ -286,6 +287,122 @@ void Graphe::Calcul_insatisfait(vector<float> &nb_besoin_insatisfaits, float &mo
             cout << "moy_insatisfait: " << moy_insatisfait << endl;
         }
         moy_insatisfait/=nb_besoin_insatisfaits.size();
+    }
+}
+// A recursive function to print DFS starting from v
+void Graphe::DFSUtil(int v, bool visited[])
+{
+    // Mark the current node as visited and print it
+    visited[v] = true;
+    cout << v << " ";
+
+    //Recur for all the vertices adjacent to this vertex
+    for (int i = 0; i < m_sommet[v].m_besoin.size(); ++i)
+        if (!visited[m_sommet[v].m_besoin[i].m_numSommet])
+            DFSUtil(m_sommet[v].m_besoin[i].m_numSommet, visited);
+}
+
+Graphe Graphe::getTranspose()
+{
+    Graphe g;
+
+
+    /// Mettre dans g les sommets du graphe
+
+    for (int v = 0; v < m_nbSom; v++)
+    {
+        Sommet s1;
+        Besoin b1;
+
+        s1.m_num = m_sommet[v].m_num;
+        s1.m_quantite = 1;
+        s1.m_marque = 1;
+        s1.m_coeff = 1;
+        s1.m_nbBesoin = 1;
+        // Recur for all the vertices adjacent to this vertex
+
+        //cout << "adj du sommet: "<< m_sommet[v].m_num << ": " << m_sommet[v].m_adj.size() << endl;
+        for (int i=0; i<m_sommet[v].m_adj.size(); i++) /// ADJ
+        {
+            cout << "nombre d'adjacents du sommet "<< m_sommet[v].m_num << " : " << m_sommet[v].m_adj.size() << endl;
+                int adj(0);
+            for(int j =0; j < m_sommet[v].m_besoin.size(); j++)
+            {
+                if(m_sommet[v].m_adj[i]==m_sommet[v].m_besoin[j].m_numSommet)
+                {
+                    ++adj;
+                    cout << "le sommet " << m_sommet[v].m_num << " a besoin de " << m_sommet[v].m_besoin[j].m_numSommet << endl;
+                }
+            }
+            if(adj == 0) /// Si ce n'est pas un besoin
+            {
+                b1.m_numSommet = m_sommet[v].m_adj[i];
+                b1.m_quantiteBesoin=0;
+                b1.m_vitale=true;
+
+                s1.m_besoin.push_back(b1);
+//                cout << "le sommet " << s1.m_num << " a pour besoin " << m_sommet[v].m_adj[i] << endl;
+            }
+
+        }
+        g.m_sommet.push_back(s1);
+    }
+
+
+    return g;
+}
+
+void Graphe::fillOrder(int v, bool visited[], stack<int> &Stack)
+{
+    // Mark the current node as visited and print it
+    visited[v] = true;
+
+    // Recur for all the vertices adjacent to this vertex
+
+    for (int i = 0; i < m_sommet[v].m_besoin.size(); ++i)
+        if (!visited[m_sommet[v].m_besoin[i].m_numSommet])
+            fillOrder(m_sommet[v].m_besoin[i].m_numSommet, visited, Stack);
+
+    // All vertices reachable from v are processed by now, push v
+    Stack.push(v);
+}
+
+// The main function that finds and prints all strongly connected
+// components
+void Graphe::printSCCs()
+{
+    stack<int> Stack;
+
+    // Mark all the vertices as not visited (For first DFS)
+    bool * visited = new bool[m_nbSom]; /// Pourquoi pointeur ?
+    for(int i = 0; i < m_nbSom; i++)
+        visited[i] = false;
+
+    // Fill vertices in stack according to their finishing times
+    for(int i = 0; i < m_nbSom; i++)
+        if(visited[i] == false)
+            fillOrder(i, visited, Stack);
+
+    // Create a reversed graph
+    Graphe gr = getTranspose();
+
+    // Mark all the vertices as not visited (For second DFS)
+    for(int i = 0; i < m_nbSom; i++)
+        visited[i] = false;
+
+    // Now process all vertices in order defined by Stack
+    while (Stack.empty() == false)
+    {
+        // Pop a vertex from stack
+        int v = Stack.top();
+        Stack.pop();
+
+        // Print Strongly connected component of the popped vertex
+        if (visited[v] == false)
+        {
+            gr .DFSUtil(v, visited);
+            cout << endl;
+        }
     }
 }
 

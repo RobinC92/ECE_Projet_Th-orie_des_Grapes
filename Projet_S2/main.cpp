@@ -7,15 +7,21 @@ using namespace std;
 
 int main()
 {
+
 //    vector<int> tab;
 //    int kase;
 //    cin >> kase;
 ///    tab.erase(tab.begin()+kase); // Supprime la case numéro kase
 
-
+//    std::string doc= "donnees.txt";
+//
     Graphe first;
 
-    charger(first);
+    charger(first, "donnees.txt");
+    init_BesoinsVitaux(first);
+    matAdj(first);
+
+
 
 //    for(int i=0; i<2; i++)
 //    {
@@ -35,33 +41,17 @@ int main()
 //
 //    }
 int fin(0);
-    while (fin<first.m_sommet.size())
-    {
+int j(0);
 
-        fin = first.Actualiser_Graphe(first);
-        cout << endl;
-        cout << endl;
-        cout << endl;
-        cout << endl;
-        cout << "gros affichage" << endl;
-        for(int i=0; i<first.m_sommet.size(); i++)
-        {
-            cout << first.m_sommet[i].m_quantite << " ";
-        }
-        cout << endl;
-        cout << endl;
-        cout << endl;
-        cout << endl;
-    }
+first.printSCCs();
 
-    sauver(first);
-
-
-//    cout << endl;
-//    for(int i=0; i<first.m_sommet.size(); i++)
-//    {
-//        cout << first.m_sommet[i].m_quantite << " ";
-//    }
+//        first.Actualiser_Graphe(first);
+//
+//        for(int i=0; i<first.m_sommet.size(); i++)
+//        {
+//            cout << first.m_sommet[i].m_quantite << " ";
+//        }
+//
 
     return 0;
 }

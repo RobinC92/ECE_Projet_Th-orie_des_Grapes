@@ -1,57 +1,47 @@
 #include "Fichier.h"
 
-//void alloueMat(int nbSom, Graphe G)
-//{
-//    std::vector<int> temp;
-//
-//    for(int i=0; i<nbSom; i++)
-//    {
-//        temp.push_back(0);
-//    }
-//
-//    for( int i=0; i<nbSom; i++)
-//    {
-//        G.m_matAdj.push_back(temp);
-//    }
-//}
-
-
-void charger(Graphe &G)
+void alloueMat(int nbSom, Graphe &G)
 {
-    Sommet s;
-    Besoin b;
-    int valSom(0), influ(0);
     std::vector<int> temp;
 
-    std::ifstream fichier ("donnees.txt");
+    for(int i=0; i<nbSom; i++)
+    {
+        temp.push_back(0);
+    }
+
+    for( int i=0; i<nbSom; i++)
+    {
+        G.m_matAdj.push_back(temp);
+    }
+}
+
+
+void charger(Graphe &G, std::string doc)
+{
+    Sommet s, s1, s2;
+    Besoin b;
+    //Arete a(s1, s2);
+    int valSom(0), influ(0), n(1);
+    std::vector<int> temp;
+
+    std::ifstream fichier (doc.c_str());
 
     if(fichier)
     {
         fichier >> G.m_nbSom;
 
-        //alloueMat(G.m_nbSom, G);
-
-        for(int i=0; i<G.m_nbSom; i++)
-        {
-            temp.push_back(0);
-        }
-
-        std::cout << std::endl;
-        for( int i=0; i<G.m_nbSom; i++)
-        {
-            G.m_matAdj.push_back(temp);
-        }
+        alloueMat(G.m_nbSom, G);
 
 
-        for(int i=0; i<G.m_nbSom; i++)
-        {
-            for(int j=0; j<G.m_nbSom; j++)
-            {
-                std::cout << G.m_matAdj[i][j] << " ";
-            }
-            std::cout << std::endl;
-        }
-        std::cout << std::endl;
+//        for(int i=0; i<G.m_nbSom; i++)
+//        {
+//            for(int j=0; j<G.m_nbSom; j++)
+//            {
+//                std::cout << G.m_matAdj[i][j] << " ";
+//            }
+//            std::cout << std::endl;
+//        }
+//        std::cout << std::endl;
 
 
         for(int i=0; i<G.m_nbSom; i++)
@@ -63,16 +53,35 @@ void charger(Graphe &G)
             }
         }
 
-        for(int i=0; i<G.m_nbSom; i++)
-        {
-            for(int j=0; j<G.m_nbSom; j++)
-            {
-                std::cout << G.m_matAdj[i][j] << " ";
-            }
-            std::cout << std::endl;
-        }
+//        for(int i=0; i<G.m_nbSom; i++)
+//        {
+//            for(int j=0; j<G.m_nbSom; j++)
+//            {
+//                if(G.m_matAdj[i][j]!=0)
+//                {
+//                    std::cout << "ARETE" << a.m_numArete << std::endl;
+//
+//                    a.m_numArete = n;
+//                    n++;
+//
+//                    a.m_s1.m_num = i;
+//                    a.m_s2.m_num = j;
+//
+//                    std::cout << "arete" << a.m_numArete <<  " " << a.m_s1.m_num << a.m_s2.m_num << std::endl;
+//                }
+//            }
+//        }
 
-            std::cout << std::endl;
+//        for(int i=0; i<G.m_nbSom; i++)
+//        {
+//            for(int j=0; j<G.m_nbSom; j++)
+//            {
+//                std::cout << G.m_matAdj[i][j] << " ";
+//            }
+//            std::cout << std::endl;
+//        }
+//
+//            std::cout << std::endl;
 
 
 
@@ -117,21 +126,51 @@ void charger(Graphe &G)
     else
         std::cout << "Erreur a l'ouverture du fichier" << std::endl;
 
-    for(int i=0; i<G.m_nbSom; i++)
-    {
-        for(int j=0; j<G.m_sommet[i].m_nbBesoin; j++)
-        {
+//    for(int i=0; i<G.m_nbSom; i++)
+//    {
+//        for(int j=0; j<G.m_sommet[i].m_nbBesoin; j++)
+//        {
+//
+//            std::cout << G.m_sommet[i].m_nbBesoin << " " << G.m_sommet[i].m_num << " " << G.m_sommet[i].m_besoin[j].m_numSommet << std::endl;
+//        }
+//    }
 
-            std::cout << G.m_sommet[i].m_nbBesoin << " " << G.m_sommet[i].m_num << " " << G.m_sommet[i].m_besoin[j].m_numSommet << std::endl;
-        }
+for(int i=0; i<G.m_nbSom; i++)
+    {
+
+
+            std::cout << G.m_sommet[i].m_num << " " << std::endl;
+
     }
+}
+
+void chargerImages(Graphe &G)
+{
+    std::string nom;
+    std::ifstream fichier("images.txt");
+
+    if(fichier)
+    {
+        while(getline(fichier, nom))
+        {
+            for(unsigned int i=0; i<G.m_sommet.size(); i++)
+            {
+                getline(fichier, nom);
+                G.m_sommet[i].m_images = nom;
+                //std::cout << G.m_sommet[i].m_images << std::endl;
+            }
+        }
+        fichier.close();
+    }
+    else
+        std::cout << "Erreur a l'ouverture du fichier" << std::endl;
 }
 
 
 void sauver(Graphe &G)
 {
     int m_nbSom(G.m_nbSom);
-    std::cout << G.m_nbSom;
+    //std::cout << G.m_nbSom;
     std::ofstream fichier("donnes_bis.txt", std::ios::trunc);
 
     if(fichier)
@@ -159,6 +198,10 @@ void sauver(Graphe &G)
 
             fichier << G.m_sommet[i].m_coeff << " ";
 
+            fichier << G.m_sommet[i].pos_x << " ";
+
+            fichier << G.m_sommet[i].pos_y << " ";
+
             fichier << G.m_sommet[i].m_nbBesoin << " ";
 
             for(int j=0; j<G.m_sommet[i].m_nbBesoin; j++)
@@ -169,10 +212,10 @@ void sauver(Graphe &G)
 
                 fichier << G.m_sommet[i].m_besoin[j].m_vitale << " ";
             }
-                        fichier << std::endl;
+            fichier << std::endl;
 
         }
-                    fichier << std::endl;
+        fichier << std::endl;
 
         fichier.close();
     }
@@ -180,5 +223,116 @@ void sauver(Graphe &G)
         std::cout << "Erreur à l'ouverture du fichier" << std::endl;
 }
 
+void sauverImages(Graphe &G)
+{
+    std::ofstream fichier("images_bis.txt", std::ios::trunc);
+
+    if(fichier)
+    {
+        for(int i=0; i<G.m_sommet.size(); i++)
+        {
+            fichier << std::endl;
+            fichier << G.m_sommet[i].m_images;
+        }
+        fichier.close();
+    }
+    else
+        std::cout << "Erreur à l'ouverture du fichier" << std::endl;
+}
+
+//void init_BesoinsVitaux(Graphe &G)
+//{
+//    for(int i=0; i<G.m_nbSom; i++)
+//    {
+//        for(int j=0; j<G.m_nbSom; j++)
+//        {
+//            if(G.m_sommet[i].m_besoin[j].m_vitale == 1)
+//                G.m_sommet[i].m_besoin[j];
+//
+//            else
+//                G.m_sommet[i].m_besoin[j].m_nbBesoinNonVital++;
+//        }
+//    }
+//}
+
+void init_BesoinsVitaux(Graphe &G)
+{
+    for(int i=0; i<G.m_nbSom; i++)
+    {
+        for(int j=0; j<G.m_sommet[i].m_nbBesoin; j++)
+        {
+            if(G.m_sommet[i].m_besoin[j].m_vitale == 1)
+                G.m_sommet[i].m_nbBesoinVital++;
+
+            else
+                G.m_sommet[i].m_nbBesoinNonVital++;
+        }
+    }
+}
+
+void matAdj(Graphe &G)
+{
+    for(int i=0; i<G.m_nbSom; i++)
+    {
+        for(int j=0; j<G.m_nbSom; j++)
+        {
+            if(G.m_matAdj[i][j]!=0)
+            {
+                G.m_sommet[i].m_adj.push_back(j);
+                std::cout << "le sommet :" << j << "est adj au sommet :" << i << std::endl;
+            }
+        }
+    }
 
 
+
+    for(int i=0; i<G.m_nbSom; i++)
+    {
+        for(int j=0; j<G.m_nbSom; j++)
+        {
+            if(G.m_matAdj[j][i]!=0)
+            {
+                if(G.m_matAdj[i][j]==0)
+                {
+                    G.m_sommet[i].m_adj.push_back(G.m_sommet[j].m_num);
+                }
+            }
+        }
+    }
+for (int i =0; i < G.m_nbSom; i++ )
+    {
+        for (int j =0; j < G.m_sommet[i].m_adj.size(); j++ )
+        {
+            std::cout << "adj du S " << G.m_sommet[i].m_num << ": " << G.m_sommet[i].m_adj[j] << std::endl;
+        }
+    }
+    /*for(int i=0; i<G.m_nbSom; i++)
+    {
+        for(int j=0; j<G.m_nbSom; j++)
+        {
+            if(G.m_matAdj[i][j]!=0)
+                //std::cout << "EGALLL " << std::endl;
+                if(G.m_matAdj[i][j] != 0)
+                {
+                    for(int k=0; k<G.m_sommet[i].m_adj.size(); k++)
+                    {
+//                    for(int l=0; l<G.m_sommet[i].m_adj.size(); l++)
+//                    {
+                        if(G.m_sommet[i].m_adj[k] != G.m_sommet[j].m_num)
+                            G.m_sommet[i].m_adj.push_back(G.m_sommet[j].m_num);
+//                    }
+                    }
+                    for(int k=0; k<G.m_sommet[j].m_adj.size(); k++)
+                    {
+//                    for(int l=0; l<G.m_sommet[i].m_adj.size(); l++)
+//                    {
+                        if(G.m_sommet[j].m_adj[k] != G.m_sommet[i].m_num)
+                            G.m_sommet[j].m_adj.push_back(G.m_sommet[i].m_num);
+//                    }
+                    }
+                    //std::cout << G.m_sommet[i].m_num << " " << G.m_sommet[j].m_num << std::endl;
+
+                }
+        }
+    }*/
+}

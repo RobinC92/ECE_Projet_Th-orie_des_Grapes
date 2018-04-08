@@ -1,6 +1,7 @@
 #ifndef GRAPHE_H
 #define GRAPHE_H
 #include "Sommet.h"
+#include <stack>
 
 class Graphe
 {
@@ -11,8 +12,15 @@ public:
     void Reproduction(Sommet&m_sommet);
     void Calcul_insatisfait(std::vector<float> &a, float &b);
 
-    std::vector<std::vector <int>> get_matAdj();
 
+
+    void fillOrder(int v, bool visited[], std::stack<int> &Stack);
+    // A recursive function to print DFS starting from v
+    void DFSUtil(int v, bool visited[]);
+    void printSCCs();
+
+    // Function that returns reverse (or transpose) of this graph
+    Graphe getTranspose();
     virtual ~Graphe();
 
     int m_nbSom;
